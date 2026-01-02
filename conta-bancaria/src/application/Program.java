@@ -16,6 +16,7 @@ public class Program {
 		int numeroConta = 0, opcao = 0;
 		String nomeTitular = "", deposito = "";
 		double saldo = 0.00;
+		Conta conta;
 		
 		System.out.println("Banco do Yuri");
 		
@@ -39,9 +40,13 @@ public class Program {
 		if(deposito.equals("sim")) {
 			System.out.print("Digite o saldo inicial: R$");
 			saldo = scan.nextDouble();
+			conta = new Conta(numeroConta, nomeTitular, saldo);
 		}
 		
-		Conta conta = new Conta(numeroConta, nomeTitular, saldo);
+		else {
+			conta = new Conta(numeroConta, nomeTitular);
+		}
+		
 				
 		do {
 			System.out.println("");
