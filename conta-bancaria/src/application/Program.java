@@ -50,10 +50,10 @@ public class Program {
 				
 		do {
 			System.out.println("");
-			System.out.println("Menu de opções: ");
-			System.out.println("1) Fazer depósito de valor; ");
-			System.out.println("2) Sacar valor; ");
-			System.out.println("0) Sair da aplicação. ");
+			System.out.println("Menu de opções:");
+			System.out.println("1) Fazer depósito de valor;");
+			System.out.println("2) Sacar valor;");
+			System.out.println("0) Sair da aplicação.");
 			System.out.println("");
 			System.out.print("Digite a opção desejada: ");
 			opcao = scan.nextInt();
