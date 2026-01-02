@@ -14,7 +14,7 @@ public class Conta {
 	public Conta(int numeroConta, String nomeTitular, double saldo) {
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;
-		this.saldo = saldo;
+		deposito(saldo);
 	}
 
 	public int getNumeroConta() {
